@@ -1,0 +1,321 @@
+.navbar{
+    background-color: #84182f;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+
+.container-fluid{
+    background-color: #072B38;
+    // background-color: #000000;
+    // color: white;
+    
+}
+
+.bgColor{
+    // background-color: #e4e4e4;
+    background-color: #072B38;
+    color: white;
+}
+
+.bgImage{
+    background-image: url(../../assets/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgColorBlack{
+    background-color: #181818;
+    color: white;
+}
+.container-1{
+    // background-color: #b15050;
+    // background-color: #303030;
+    
+    color: white;
+}
+
+.container-2{
+    // background-color: blue;
+    // background-color: #303030;
+    color: white;
+}
+
+
+
+.divide{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 3em;
+    background-color: #84182f;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.btn-open{
+    background-color: #84182f;
+    color: white;
+    border-radius: 20px;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    max-width: 50vw;
+    max-height: 50vh;
+    // border: 5px solid #84182f;
+    // align-self: ;
+}
+#greetings-text{
+    margin-top: 20px;
+    // background-color: purple;
+}
+// .container-4{
+//     background-color: #303030;
+//     color: white;
+// }
+
+// .colorGreen{
+//     background-color: green;
+// }
+// .colorBlue{
+//     background-color: blue;
+// }
+// .colorYellow{
+//     background-color: yellow;
+// }
+// .colorViolet{
+//     background-color: violet;
+// }
+// .colorOrange{
+//     background-color: orange;
+// }
+.col-auto{
+    // background-color: #303030;
+    // background-color: #072B38;
+    // background-color: #e4e4e4;
+    
+}
+
+
+// .holder-works{
+//     background-color: #303030;
+// }
+
+
+.row-3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    // margin-top: 50px;
+    // margin-bottom: 50px;
+}
+
+.works{
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    // padding: 0px 50px 0px 50px;
+}
+
+// .card{
+//     width: auto;
+//     margin: 50px 20px 50px 20px;
+//     color: black;
+// }
+.space{
+    height: 50px;
+
+}
+.contact-logo{
+    height: 80px;
+    width: 80px;
+}
+
+.contact-logo-sm{
+    height: 40px;
+    width: auto;
+    // background-color: red;
+}
+
+.reach{
+    font-weight: lighter;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.contact{
+    // align-self: center;
+    // align-content: center;
+    // vertical-align: middle;
+    text-align: left;
+}
+
+.margin{
+    margin: 20px 0 20px 0;
+    // margin-bottom: 20px;
+}
+
+
+.facebook-container{
+    // background-color: red;
+}
+
+.email-container{
+    // background-color: blue;
+}
+
+.MessengerBtn{
+    color: white;
+    background-color: #006AFF;
+    // background-image: linear-gradient(#00B2FF,#006AFF);
+    width: 50%;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 86.5px;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.EMAILbtn{
+    color: white;
+    background-color: #d44638;
+    // background-image: linear-gradient(#d44638,#c6c6c6);
+    width: 50%;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 86.5px;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.MessengerBtn:hover {
+    background-color: #0056cf;
+    color: white;
+}
+
+.EMAILbtn:hover {
+    background-color: #ac3a30;
+    color: white;
+}
+
+.footer{
+    padding-top: 80px;
+    background-color: #181818;
+    color: white;
+    
+    // color: black;
+    // text-align: center;
+}
+
+p.attribution{
+    text-align: center;
+    font-size: 8px;
+}
+a{
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    // .hello{
+    //     padding-top: 50px;
+    //     padding-bottom: 50px;
+    //     height: 100% !important;
+    // }
+
+    .divide{
+        height: 2.5em;
+    }
+
+    .contact{
+        text-align: center;
+        font-size: 100%;
+        margin-top: 10px;
+    }
+    #contact-image { display: none; }
+
+    .contact-logo{
+        
+        height: auto;
+        width: 50%;
+    }
+
+    
+    .contents{
+        margin-left: 20px;
+        margin-right: 20px;
+        // text-align: center !important;
+        // background-color: black;
+        
+        
+    }
+
+    .works{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        
+        
+
+    }
+
+
+    .facebook-container{
+        
+        margin-top: 30px;
+        text-align: center !important;
+        // background-color: red;
+    }
+    
+    .email-container{
+        margin-top: 30px;
+        text-align: center !important;
+        // background-color: blue;
+    }
+
+    // .reach {display: none;}
+
+    .EMAILbtn,.MessengerBtn{
+        align-content: center;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .reach{
+        
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    
+    // .fb-email{
+    //     align-self: center;
+    //     display: block;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    //     width: 100%;
+    // }
+    
+}
+
+@media only screen and (max-width: 310px){
+    .cover{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 100% !important;
+    }
+}
+
